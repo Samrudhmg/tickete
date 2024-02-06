@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='items'>
         <p className='madewithlogo'>Made with ❤️</p>
         <ul>
-        <li>privacy Policy</li>
+        <li>Privacy Policy</li>
         <li>Terms of usage</li>
         <li>Canellation policy</li>
        

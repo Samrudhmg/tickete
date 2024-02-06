@@ -130,12 +130,12 @@ const Content = () => {
         </div>
         <div id="commingsoon">
            <img style={{position:'absolute'}} src="apple-pay.png"></img>
-            <p >Commingsoon</p>
+            <p >Comming soon</p>
             <IoMdRadioButtonOff size={25} />
         </div>
         <div id="commingsoon">
         <img style={{position:'absolute'}}  src="google-pay.png"></img>
-            <p>Commingsoon</p>
+            <p>Comming soon</p>
             <IoMdRadioButtonOff size={25}   />
         </div>
         <p style={{marginTop:"2rem"}} className="underline"></p>

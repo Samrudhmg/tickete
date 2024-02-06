@@ -1,12 +1,12 @@
 const images = [
     {
       imgURL:
-        "https://media.istockphoto.com/id/938523984/photo/channel-in-amsterdam-netherlands-houses-river-amstel.jpg?s=612x612&w=0&k=20&c=JjLM5byhoKqqU_4V6DWOEVYB3l5JcrpzhdDFNQjZcM4=",
+        "https://images.unsplash.com/photo-1499241142330-28701ea87ff4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imgAlt: "img-1"
     },
     {
       imgURL:
-      "https://finduslost.com/wp-content/uploads/2018/03/Frozen-Canals-Amsterdam-Netherlands-Winter-FindUsLost-3.jpg",
+      "https://plus.unsplash.com/premium_photo-1661963497086-d45cf92322dd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imgAlt: "img-2"
     },
     {
