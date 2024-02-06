@@ -1,0 +1,111 @@
+.Footer{
+    height: 46vh;
+    background-color: #000000;
+    position: relative;
+    margin-top: 5rem;
+ 
+
+
+    img{
+        height: 3rem;
+        position: absolute;
+        top: 44%;
+        left: 11.2%;
+        transform: translate(-50%,-50%);
+       }
+
+
+    .underline{ 
+        position: absolute;
+        top: 65%;
+        height: 2px;
+        width: 100%;
+        background-color: rgb(149, 149, 149);
+        color: aliceblue;
+    }
+   
+    .items{
+        position: absolute;
+        display: flex;
+        color: rgb(191, 191, 191);
+        top: 75%;
+
+        ul{
+            color: #6A6E74;
+            display: flex;
+            margin-left: 1rem;
+
+            li{
+                margin-left: 35px;
+                align-items: center;
+            }
+            
+            
+        }
+        .madewithlogo{
+            margin-left: 5rem;
+        }
+
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    .Footer{
+        margin-top: 11rem;
+        width: 414.5px;
+        height: 43vh;
+        /* margin-left: 0.5rem; */
+
+        img{
+            height: 2rem;
+            position: absolute;
+            top: 44%;
+            left: 19.2%;
+            transform: translate(-50%,-50%);
+           
+        }
+        .underline{ 
+            position: absolute;
+            top: 58%;
+            height: 2px;
+            width: 100%;
+            background-color: rgb(149, 149, 149);
+            color: aliceblue;
+        }
+
+        .items{
+            position: absolute;
+            display: flex;
+            flex-wrap: nowrap;
+            color: rgb(191, 191, 191);
+            top: 75%;
+            width: 380px;
+    
+            ul{
+                color: #6A6E74;
+                display: flex;
+                margin-left: -1rem;
+                margin-top: -1rem;
+                /* padding: 0px 30px; */
+                /* margin-left: 0.1rem; */
+                li{
+                    margin-left: 8px;
+                    align-items: center;
+                    font-size: 0.9rem;
+                }
+              
+            }
+            .madewithlogo{
+                position: absolute;
+                margin-left: 0.8rem;
+                color: #6A6E74;
+                width: 40vw;
+                margin-top: 1.9rem;
+                /* padding-bottom: 1rem; */
+                
+            }
+            
+        }
+       
+    }
+}

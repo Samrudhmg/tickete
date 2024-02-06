@@ -1,0 +1,96 @@
+.navigation{
+    width: 100%;
+}
+.leftarrow{
+        position: absolute;
+        left: 7%;
+        font-size: 1.3rem;
+}
+.questionmark{
+    position: absolute;
+    left:85%;
+    font-size: 1.3rem;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+    height: 3rem;
+
+}
+.logo{
+    font-family: "PP mori";
+    font-weight:bolder;
+    font-size: 2rem;
+}
+.ticket{
+    background-color: black;
+    color: white;
+    margin-top: -0.65rem;
+    height: 2.5rem;
+
+    h1{
+        font-size: 1rem;
+        font-family: "pp mori";
+        text-align: center;
+        align-items: center;
+        padding-top: 0.6rem;
+        letter-spacing: 0.2px;
+    }
+   
+}
+.navicon{
+    position: absolute;
+    top: 3.2%;
+    margin-left: -1.5rem;
+
+}
+@media screen and (max-width: 400px) {
+    body {
+      /* background-color: rgb(204, 147, 245); */
+      color: rgb(0, 0, 0);
+    }
+    .nav{
+        display:flex;
+        justify-content: space-between;
+        padding: 10px 80px;
+        align-items: center;
+        height: 3rem;
+        margin-left: 4.3rem;
+        p{
+            font-size: 1.8rem;
+           
+        }
+    
+    }
+    .logo{
+      display: none;
+    }
+    #help{
+        display: none;
+    }
+    .navicon{
+        position: absolute;
+        top: 4.3%;
+        left: 37%;
+    
+    }
+    .ticket{
+        background-color: black;
+        color: white;
+        margin-top: -0.6rem;
+        height: 2.5rem;
+        width: 414px;
+    
+        h1{
+            font-size: 1rem;
+            font-family: "pp mori";
+            text-align: center;
+            align-items: center;
+            padding-top: 0.75rem;
+            letter-spacing: 0.2px;
+        }
+       
+    }
+}

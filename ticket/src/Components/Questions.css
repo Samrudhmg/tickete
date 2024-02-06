@@ -1,0 +1,175 @@
+.QuestionsMain{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.questions-left{
+        width: 30%;
+        /* background-color: blueviolet; */
+
+        h1{
+            font-size: 1.7rem;
+            font-weight: 500;
+        }
+        p{
+            color: gray;
+            margin-top: -0.5rem;
+            
+        }
+        .needhelp{
+            padding: 20px 20px;
+            /* background-color: rgb(250, 248, 247); */
+            border-radius: 15px;
+            margin-top: 3rem;
+            h1{
+                font-size: 1.3rem;
+                margin-top: -0.5rem;
+            }
+            button{
+                padding: 10px 10px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 10px;
+                border: none;
+                font-size: 0.95rem;
+                cursor: pointer;
+
+            }
+            .groupimage{
+                position: absolute;
+                left: 21%;
+                margin-top: -4rem;
+
+            }
+
+
+        }
+
+}
+.questions-right{
+    width: 50%;
+    /* background-color: rgb(191, 141, 238); */
+
+    .box{
+        border: 2px solid rgb(126, 126, 126);
+        height: 10vh;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        border-radius: 15px;
+        h4{
+            margin-left: 1rem;
+            font-weight: 600;
+        }
+        p{
+            margin-left: 1rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+       
+    }
+    .bigbox{
+        border: 2px solid rgb(126, 126, 126);
+        height: 30vh;
+        width: 98%;
+        margin-top: 1rem;
+        border-radius: 15px;
+
+        p{
+            color: gray;
+           padding: 10px 50px;
+        }
+        h4{
+            margin-left: 3rem;
+            font-weight: 600;
+
+            span{
+                margin-left: -1.8rem;
+                margin-right: 1.2rem;
+                font-weight: 700;
+            }
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .QuestionsMain{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction:column-reverse;
+        margin-top:270vh;
+        
+    }
+    .questions-left{
+       
+        
+        
+        h1{
+            position: absolute;
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-top: -115vh;
+            left: 4%;
+        }
+        p{
+            position: absolute;
+            color: gray;
+            margin-top: -0.5rem;
+            margin-top: -108vh;
+            left: 4%;
+            
+        }
+        .needhelp{
+            width: 300px;
+            color: black;
+            h1{
+                font-size: 1.3rem;
+                margin-top: -0.5rem;
+            }
+            button{
+                padding: 15px 15px;
+                /* background-color: #000; */
+                color: #fff;
+                border-radius: 10px;
+                border: none;
+                font-size: 0.95rem;
+                cursor: pointer;
+                margin-top: 4rem;
+                
+
+            }
+            .groupimage{
+                position: absolute;
+                left: 60%;
+                margin-top: -2rem;
+
+            }
+
+
+        }
+
+    }
+    .questions-right{
+        width: 380px;
+        margin-left: 1rem;
+
+        .bigbox{
+            border: 2px solid rgb(126, 126, 126);
+            height: 49vh;
+            width: 98%;
+            margin-top: 1rem;
+            border-radius: 15px;
+    
+            p{
+                color: gray;
+               padding: 5px 10px;
+            }
+        }
+    }
+}   
