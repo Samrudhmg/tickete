@@ -69,7 +69,7 @@ const Content = () => {
           
             <div id="creditanddebit">
            
-              <p>Credit & debit card</p>
+              <p>Credit & Debit card</p>
               <IoMdRadioButtonOn size={25} style={{marginTop:'-1rem'}} />
               <div className="images" style={{position:'absolute', marginTop:'1.5rem',marginLeft:"2rem", padding:'10px', width:'10vw',left:"6.9%"}}>
                 <img id="img1" style={{position:'absolute', top:'35%', left:'5%' }} src="visa.png" alt="nothing to show"></img>
@@ -120,9 +120,9 @@ const Content = () => {
               <h3 id="charged">You will be charged in AED</h3>
               <h5 id="confirm-pay">
           {" "}
-          By clicking "cofirm & pay", you agree to{" "}
+          By clicking "confirm & pay", you agree to{" "}
           <span> Tickete's general terms and condition</span> and{" "}
-          <span> cencellation policy.</span>
+          <span> Cancellation policy.</span>
         </h5>
         <button className="button-right"><MdLock size={20} className="lock1"/>Confirm & pay</button>
             </div>
@@ -130,12 +130,12 @@ const Content = () => {
         </div>
         <div id="commingsoon">
            <img style={{position:'absolute'}} src="apple-pay.png"></img>
-            <p >Comming soon</p>
+            <p >Coming soon</p>
             <IoMdRadioButtonOff size={25} />
         </div>
         <div id="commingsoon">
         <img style={{position:'absolute'}}  src="google-pay.png"></img>
-            <p>Comming soon</p>
+            <p>Coming soon</p>
             <IoMdRadioButtonOff size={25}   />
         </div>
         <p style={{marginTop:"2rem"}} className="underline"></p>
