@@ -6,7 +6,7 @@ const images = [
     },
     {
       imgURL:
-      "https://images.unsplash.com/photo-1536880756060-98a6a140f0a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/477307170/photo/night-city-view-of-amsterdam-the-netherlands.jpg?b=1&s=612x612&w=0&k=20&c=64Hs4sbXUowNYB7L2dqPsN7yTcrWzE_Klwi_1SeHzIQ=",
       imgAlt: "img-2"
     },
     {
