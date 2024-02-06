@@ -39,9 +39,10 @@
 
         h5{
             font-size: 1rem;
+            font-weight: 500;
             margin-top: -0.1rem;
             padding-top: 0.7rem;
-            font-family:cursive;
+            /* font-family:cursive; */
           
         }
         p{
